@@ -1,0 +1,47 @@
+[gd_scene format=3 uid="uid://bnyrec005qijl"]
+
+[node name="Demo1" type="Node2D"]
+
+[node name="CanvasLayer" type="CanvasLayer" parent="."]
+
+[node name="Control" type="Control" parent="CanvasLayer"]
+layout_mode = 3
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+
+[node name="InputPrompt" type="TextEdit" parent="CanvasLayer/Control"]
+layout_mode = 0
+offset_left = 64.0
+offset_top = 64.0
+offset_right = 1088.0
+offset_bottom = 256.0
+text = "[INST](Rule: stay in character). You are a humble medieval villager (named: Newton) who serves tea to travelers. Speak briefly about your tea, hut, or local rumors. Never break character or mention AI.[/INST] [INST] A weary traveler asks: \"What kind of tea are you making?\" [/INST]"
+placeholder_text = "Enter prompt here..."
+wrap_mode = 1
+
+[node name="Ask" type="Button" parent="CanvasLayer/Control"]
+layout_mode = 0
+offset_left = 64.0
+offset_top = 280.0
+offset_right = 256.0
+offset_bottom = 336.0
+text = "Ask"
+
+[node name="ResetContext" type="Button" parent="CanvasLayer/Control"]
+layout_mode = 0
+offset_left = 896.0
+offset_top = 280.0
+offset_right = 1088.0
+offset_bottom = 336.0
+text = "Reset Context"
+
+[node name="Output" type="Label" parent="CanvasLayer/Control"]
+layout_mode = 0
+offset_left = 64.0
+offset_top = 384.0
+offset_right = 1088.0
+offset_bottom = 576.0
+autowrap_mode = 3

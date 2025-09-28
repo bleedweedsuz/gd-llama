@@ -1,0 +1,6 @@
+[configuration]
+entry_symbol = "gdllama_library_init"
+compatibility_minimum = 4.1
+
+[libraries]
+macos.debug = "res://addons/bin/macos/template_debug/libgdllama.macos.template_debug.dylib"
