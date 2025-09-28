@@ -1,4 +1,4 @@
-# Add all models here .guff
+# Add all models here .gguf
 
 # Tested model
 

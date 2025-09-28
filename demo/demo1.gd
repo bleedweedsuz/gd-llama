@@ -1,10 +1,10 @@
 extends Node
 
-@onready var gdl_lama: GDLLama = $GDLLama
 @onready var text_edit: TextEdit = $CanvasLayer/Control/TextEdit
 @onready var ask: UIButton = $CanvasLayer/Control/Ask
 @onready var reset_context: UIButton = $CanvasLayer/Control/ResetContext
 @onready var output: Label = $CanvasLayer/Control/Output
+@onready var gdl_lama: GDLLama = $GDLLama
 
 func _ready():
 	ask.buttonCommit = Callable(self, "_ask_button_pressed")

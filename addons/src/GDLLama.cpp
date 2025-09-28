@@ -23,7 +23,7 @@ void GDLLama::_bind_methods() {
 }
 
 GDLLama::GDLLama() {
-    UtilityFunctions::print("GDLLama initialized - Version 0.0.2");
+    UtilityFunctions::print("GDLLama initialized - Version 0.0.1");
     UtilityFunctions::print(system_info());
 }
 
