@@ -19,14 +19,18 @@ Key points:
 
 3. Build GD-Llama
     - Build godot-cpp
-        `scons -C godot-cpp platform=macos target=template_release # (j is cpu core) target="template_release"`
+        ```
+        scons -C godot-cpp platform=macos target=template_release # (j is cpu core) target="template_release"
+        ```
     - Build llama.cpp
         ```
         cmake -S llama.cpp -B build-llama -DGGML_METAL=ON -DCMAKE_BUILD_TYPE=Release
         cmake --build build-llama -j
         ```
     - Run SConstruct root/SConstruct
-        - `scons platform=macos arch=arm64 target=template_debug`
+        ```
+        scons platform=macos arch=arm64 target=template_debug
+        ```
     - Finally use extension in your project
 
 ### Godot Asset Library
