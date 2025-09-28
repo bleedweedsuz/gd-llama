@@ -36,11 +36,13 @@ Key points:
         ```
     - Finally use extension in your project
 
-### Godot Asset Library
+### Working on
 
-- If you don't want to build the extension you can directly use it from godot asset library.
-- Search **GD-Llama** in godot asset library.
+- [ ] Auto build release for all platform mac (arm, x86_64), windows (x86_64), linux (x86_64)
+- [ ] Add to Godot Asset library
+
 
 ### Demo
 
 ![Demo](docs/demo.gif)
+
