@@ -40,3 +40,7 @@ Key points:
 
 - If you don't want to build the extension you can directly use it from godot asset library.
 - Search **GD-Llama** in godot asset library.
+
+### Demo
+
+![Demo](docs/demo.gif)
